@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background: rgb(144,141,205);
+    background: linear-gradient(90deg, rgba(144,141,205,1) 0%, rgba(235,0,255,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.container {
+    width: auto;
+    height: auto;
+    padding: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 50%;
+    margin: auto;
+    margin-top: 30%;
+    position: relative;
+}
+
+.cat-img {
+    position: static;
+    width: 180px;
+    height: 180px;
+}
+
+.text {
+    position: absolute;
+    bottom: 35%;
+    font-family: "Protest Riot", sans-serif;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.buttons {
+    position: absolute;
+    top: 70%;
+    bottom: 15%;
+}
+
+.btn {
+    font-size: 25px;
+    color: white;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 5px;
+}
+
+.btn--yes {
+    background-color: #40c057;
+}
+
+.btn--no {
+    background-color: #f03e3e;
+}
+
+.hidden {
+    display: none;
+}
